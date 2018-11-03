@@ -1,8 +1,8 @@
-PROJECT = awesomesauce
+PROJECT = jblink
 BUILD_DIR = bin
 
-SHARED_DIR = ../my-common-code
-CFILES = my-project.c
+SHARED_DIR = ../common
+CFILES = button.c
 CFILES += api.c
 
 # TODO - you will need to edit these two lines!
